@@ -20,7 +20,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId    = "com.github.TON_USERNAME_GITHUB"
+                groupId    = "com.github.abdelwahab-JEmLa"
                 artifactId = "localcsv-android"
                 version    = "1.0.0"
             }
